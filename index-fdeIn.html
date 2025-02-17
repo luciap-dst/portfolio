@@ -1,0 +1,581 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="eng" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+
+<head>
+  <title>Cinemagraph with Fade In text</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <!--[if !mso]>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<!--<![endif]-->
+  <meta name="color-scheme" value="light" />
+  <meta name="supported-color-schemes" content="light" />
+  <meta name="format-detection" content="telephone=no, date=no, address=no, email=no" />
+
+
+
+  <style type="text/css">
+    :root {
+      color-scheme: light;
+      supported-color-schemes: light;
+    }
+  </style>
+
+  <style type="text/css">
+    #outlook a {
+      padding: 0;
+    }
+
+    body {
+      width: 100% !important;
+      -webkit-text-size-adjust: none;
+      -ms-text-size-adjust: none;
+      margin: 0;
+      padding: 0;
+      min-height: 1000px;
+    }
+
+    .ReadMsgBody {
+      width: 100%;
+    }
+
+    .hilite {
+      color: #ec008c;
+    }
+
+    #backgroundTable {
+      height: 100% !important;
+      margin: 0;
+      padding: 0;
+      width: 100% !important;
+    }
+
+
+    .ExternalClass {
+      width: 100%;
+    }
+
+    .ExternalClass,
+    .ExternalClass p,
+    .ExternalClass span,
+    .ExternalClass font,
+    .ExternalClass td,
+    .ExternalClass div {
+      line-height: 100%;
+    }
+
+    /****** END BUG FIXES ********/
+
+    body {
+      color: #333333;
+    }
+
+    img {
+      display: block;
+      border: none;
+      outline: none;
+      text-decoration: none;
+    }
+
+    table {
+      border-collapse: collapse;
+      mso-table-lspace: 0pt;
+      mso-table-rspace: 0pt;
+      border-spacing: 0;
+    }
+
+    table td {
+      border-collapse: collapse;
+    }
+
+    /****** LINKS ********/
+
+    .appleLinks a {
+      color: #000001 !important;
+      text-decoration: none;
+    }
+
+    .appleLinksPurple a {
+      color: #401663 !important;
+      text-decoration: none;
+    }
+
+    .appleLinksFooter a {
+      color: #401663 !important;
+      text-decoration: #000001;
+      pointer-events: none;
+      cursor: default;
+    }
+
+    .mobile_link a[href^="tel"],
+    .mobile_link a[href^="sms"] {
+      text-decoration: default;
+      color: #000001 !important;
+      pointer-events: auto;
+      cursor: default;
+    }
+
+    a[x-apple-data-detectors] {
+      color: inherit !important;
+      text-decoration: none !important;
+      font-size: inherit !important;
+      font-family: inherit !important;
+      font-weight: inherit !important;
+      line-height: inherit !important;
+    }
+
+
+          /* CINEMAGRAPH WITH SLIDE IN TEXT start */
+
+          .cinemagraphBG {
+              height: 100%;
+              background-image: url('images/cinemagraph.gif');
+              background-size: cover;
+              background-repeat:no-repeat, no-repeat;
+          }
+            .slideIn_content {
+              width:100%;
+              height:380px;
+            }
+
+          .slideIn {
+              color:#fff;
+              font-family:'Public Sans';
+              line-height:1em;
+              position:relative;
+              text-shadow: 2px 2px 50px rgba(0,0,0,0.7);
+          }
+          .lineOne {
+            transition-delay:.2s;
+            transition:.4s ease in;
+            animation: slideIn_txt 1s linear;
+          }
+          .lineTwo {
+              transition-delay:.4s;
+              transition:.6s ease in;
+              animation: slideIn_txt 1.5s linear;
+          }
+          .lineThree {
+              transition-delay:.6s;
+              transition:.8s ease in;
+              animation: slideIn_txt 2s linear;
+          }
+          .lineOne, .lineTwo, .lineThree {
+              font-size:90px;
+              font-weight: bold;
+              letter-spacing: 3px;
+            }
+          .lineFour {
+              transition-delay:2s;
+              transition:2s ease in;
+              text-transform: uppercase;
+              animation: fadeIn 3s linear;
+              width: 100%;
+              background-color:rgba(255,255,255,0.7);
+              display:inline-block;
+              color:#92411f;
+              box-size:border-box;
+              max-width:63%;
+              max-width: 22em;
+              font-size: 28px;
+              padding: .5em;
+              margin-top: 30px;
+          }
+          @keyframes fadeIn{
+              0% { opacity:0;}
+              100% { opacity:1;}
+          }
+           @keyframes slideIn_txt{
+              0% { transform:translateX(-100%); }
+              100% { transform:translateX(0%); }
+          }
+         /* CINEMAGRAPH WITH SLIDE IN TEXT end */
+
+
+
+
+    /****** MEDIA QUERIES ********/
+
+    @media only screen and (max-width: 639px) {
+      .mobileOn {
+        display: block !important;
+        height: auto !important;
+        width: 100% !important;
+        max-height: inherit !important;
+      }
+
+      .slideIn_content {
+
+        padding-top:90px !important;
+      }
+
+      .slideIn {
+        line-height:1 !important;
+              }
+
+      .lineOne, .lineTwo, .lineThree {
+        font-size: 60px !important;
+      }
+      .lineFour {
+        margin-top:40px !important;
+        max-width:100% !important;
+        padding-top:10px !important;
+        padding-right:0 !important;
+         padding-bottom:10px !important;
+        padding-left:0 !important;
+       font-size:26px !important;
+       line-height:1 !important;
+         background-color:rgba(255,255,255,0.8);
+        animation: fadeIn 2s linear;
+     }
+
+      .hide {
+        display: none !important;
+      }
+
+      .show {
+        display: block !important;
+      }
+
+      .table {
+        width: 340px !important;
+      }
+
+      .table300 {
+        width: 300px !important;
+      }
+
+      .table-mobile {
+        width: 100% !important;
+      }
+
+      .table-mobile-50 {
+        width: 20% !important;
+      }
+
+      .img-mobile {
+        width: 100% !important;
+        display: block;
+        height: auto !important;
+      }
+
+
+
+      .center_mob {
+        margin: 0 auto !important;
+      }
+
+      .table-mobile-marginbottom {
+        width: 100% !important;
+        margin-bottom: 10px !important;
+      }
+
+      .table-mobile-marginbottomextra {
+        width: 100% !important;
+        margin-bottom: 25px !important;
+      }
+
+      .db {
+        display: block !important;
+      }
+
+      .wf {
+        width: 100% !important;
+      }
+
+      .w230 {
+        width: 230px !important;
+      }
+
+      .w285 {
+        width: 285px !important;
+      }
+
+      .w95 {
+        width: 90% !important;
+      }
+
+      .noborder {
+        border: 0px solid #ffffff !important;
+      }
+
+      .pt15 {
+        padding-top: 15px !important;
+      }
+
+      .pt10 {
+        padding-top: 10px !important;
+      }
+
+      .pb15 {
+        padding-bottom: 15px !important;
+      }
+
+      .center-text {
+        text-align: center !important;
+      }
+
+      *[class="mobileOff"] {
+        width: 0px !important;
+        display: none !important;
+      }
+
+      *[class*="mobileOn"] {
+        display: block !important;
+        max-height: none !important;
+      }
+         .break_mob {
+        overflow-wrap: break-word !important;
+        word-wrap: break-word !important;
+        -ms-word-break: break-all !important;
+        word-break: break-word !important;
+
+      }
+    }
+   @media only screen and (max-width: 376px) {
+      .table {width: 320px !important;}
+    }
+
+     @media (prefers-color-scheme: dark ) {
+       .slideIn_content {color:#ffffff !important;}
+     }
+  </style>
+
+  <style>
+
+  /* latin */
+  @font-face {
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/publicsans/v13/ijwGs572Xtc6ZYQws9YVwllKVG8qX1oyOymuSJmJxAco.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+  /* latin */
+  @font-face {
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/publicsans/v13/ijwGs572Xtc6ZYQws9YVwllKVG8qX1oyOymuFpmJxAco.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+
+  /* latin */
+  @font-face {
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/publicsans/v13/ijwGs572Xtc6ZYQws9YVwllKVG8qX1oyOymu8Z6JxAco.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+  </style>
+
+
+
+  <!--[if mso]>
+  <xml>
+    <o:OfficeDocumentSettings>
+      <o:PixelsPerInch>96</o:PixelsPerInch>
+    </o:OfficeDocumentSettings>
+  </xml>
+  <![endif]-->
+
+  <!--[if gte mso 15]>
+	<style type="text/css">
+    body, table, td, th, a, span {font-family:'Public Sans', Arial, sans-serif !important;}
+			table { font-size:1px; line-height:0; mso-margin-top-alt:1px;mso-line-height-rule: exactly; }
+			* { mso-line-height-rule: exactly; }
+	</style>
+	<![endif]-->
+
+
+</head>
+
+<body lang="en" marginwidth="0" marginheight="0" leftmargin="0" topmargin="0" style="background-color:#F6F6F6;  font-family:'Public Sans', Arial,serif; margin:0; padding:0; min-width: 100%; -webkit-text-size-adjust:none; -ms-text-size-adjust:none;" yahoo="fix">
+  <div align="center">
+    <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="#F6F6F6">
+      <tr>
+    <td  valign="top" align="center" height="16" style="mso-line-height-rule:exactly; font-size:16px; line-height:16px;">&nbsp;</td>
+  </tr>
+      <tr>
+        <td width="100%" valign="top" align="center">
+          <table role="presentation" width="640" border="0" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" class="table"  style="box-shadow: 0 5.5px 4px -2px rgba(0,0,0,0.05), 0 7.5px 7px -2px rgba(0,0,0,0.1), 0 10px 14px -2px rgba(0,0,0,0.2);">
+                <tr>
+              <td bgcolor="#ffffff" valign="top" align="center" height="20" style="mso-line-height-rule:exactly; font-size:20px; line-height:20px;">&nbsp;</td>
+            </tr>
+            <tr>
+              <td bgcolor="#ffffff" align="center" valign="top">
+                <table role="presentation" border="0" cellspacing="0" cellpadding="0">
+                  <tr>
+                    <td align="center" valign="top" style="font-family:'Public Sans', Arial,sans-serif; mso-line-height-rule:exactly; line-height: 16px; font-size:12px; color:#92411f;">
+                        Is this email not displaying correctly?<span class="db"></span> <a href="link" style="color:#92411f; line-height:20px;">View it in your browser</a>.
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+            <tr>
+          <td bgcolor="#ffffff" valign="top" align="center" height="20" style="mso-line-height-rule:exactly; font-size:20px; line-height:20px;">&nbsp;</td>
+        </tr>
+        <tr><td align="center" valign="top">
+          <table role="presentation" width="94%" border="0" cellspacing="0" cellpadding="0" class="w95" bgcolor="#ffffff">
+          <tr>
+            
+              <td valign="top" align="left" width="320">
+                <img class="center_mob" src="images/bernhaas_logo.png" alt="Bernhaas Investments" style="display: block; margin:0;" width="200">
+              </td>
+              
+            </tr>
+          </tr>
+        </table></td></tr>
+        <tr>
+          <td bgcolor="#ffffff" valign="top" align="center" height="20" style="mso-line-height-rule:exactly; font-size:20px; line-height:20px;">&nbsp;</td>
+        </tr>
+        
+            <tr bgcolor="#ededed">
+              <td align="center" valign="top">
+                <table role="presentation" width="90%" border="0" cellspacing="0" cellpadding="0" class="w95" bgcolor="#ffffff">
+                  
+
+                  <tr>
+                    <td align="center" valign="top">
+                      <table role="presentation" width="640" style="width:640px;" cellpadding="0" cellspacing="0" border="0" align="center" class="table-mobile">
+  <tr>
+  <td valign="top" align="center" bgcolor="#92411f" background="images/cinemagraph.gif" width="640" height="338"  style="background:url('images/cinemagraph.gif') center / cover no-repeat #92411f;">
+  <!--[if gte mso 9]>
+  <v:image xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="border: 0;display: inline-block; width: 480pt; height: 253.5pt;" src="images/hero_fallback.jpg" />                <v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style=" border: 0;display: inline-block;position: absolute; width: 480pt; height:253.5pt;">
+  <v:fill  opacity="0%" color="#92411f”  />
+  <v:textbox inset="0,0,0,0">
+  <![endif]-->
+  <div>
+  <div style="font-size: 0;">
+  <table role="presentation" width="640" style="width:640px; overflow:hidden;" cellpadding="0" cellspacing="0" border="0" align="center" class="table-mobile">
+  <tr>
+  <td valign="top" align="center">
+
+    <div class="cinemagraphBG table">
+    <div class="slideIn_content table" style="font-family:'Public Sans', Arial, sans-serif;">
+  <div class="slideIn lineOne" style="font-family:'Public Sans', Arial, sans-serif;">Investing</div>
+  <div class="slideIn lineTwo" style="font-family:'Public Sans', Arial, sans-serif;">without</div>
+  <div class="slideIn lineThree" style="font-family:'Public Sans', Arial, sans-serif;">the fuss</div>
+  <div class="slideIn lineFour" style="font-family:'Public Sans', Arial, sans-serif;">Tailored. Aware. Connected</div>
+  </div>
+  </div>
+  </td>
+  </tr>
+  </table>
+  </div>
+  </div>
+  <!--[if gte mso 9]>
+  </v:textbox>
+  </v:fill>
+  </v:rect>
+  </v:image>
+  <![endif]-->
+  </td>
+  </tr>
+  </table>
+
+                    </td>
+                  </tr>
+                </table>
+
+              </td>
+            </tr>
+            <tr>
+              <td valign="top" align="center" height="40" style="mso-line-height-rule:exactly; font-size:40px; line-height:40px;">&nbsp;</td>
+            </tr>
+            <tr>
+              <td align="center" valign="top">
+                <table role="presentation" width="90%" border="0" cellspacing="0" cellpadding="0" class="w95">
+                  <tr>
+                    <td align="left" valign="top" style="font-family:'Public Sans', Arial,sans-serif;font-size:16px;line-height:24px;color:#92411f;">
+                      <strong>Hello <span class="hilite">{firstname}</span>,</strong>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td valign="top" align="center" style="mso-line-height-rule:exactly; font-size:16px; line-height:24px;">&nbsp;</td>
+                  </tr>
+
+
+
+
+                  <tr>
+                    <td align="left" valign="top" style="font-family:'Public Sans', Arial,sans-serif;font-size:14px;line-height:20px;mso-line-height-rule:exactly;color:#92411f;">Suspendisse vitae sodales felis. Sed ut est eget ipsum aliquet finibus. Cras lacinia neque et tempus rutrum. In sit </td>
+                  </tr>
+                  <tr>
+                    <td valign="top" align="left" style="mso-line-height-rule:exactly; font-size:16px; line-height:24px;">&nbsp;</td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="top" style="font-family:'Public Sans', Arial,sans-serif;font-size:14px;line-height:20px;mso-line-height-rule:exactly;color:#92411f;">Amet risus porttitor, interdum ex ac, ultrices tellus. Sed maximus libero ut lacus luctus, ac luctus nunc varius. Aliquam erat volutpat..</td>
+                  </tr>
+
+
+
+                </table>
+              </td>
+            </tr>
+
+            <tr>
+              <td align="center" valign="top" class="pt10">
+                <table role="presentation" width="90%" border="0" cellspacing="0" cellpadding="0" class="w95">
+
+                  <tr>
+                    <td valign="top" align="center" height="20" style=" font-size:20px; line-height:20px;mso-line-height-rule:exactly;">&nbsp;</td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="top" style="font-family:'Public Sans', Arial,sans-serif;font-size:14px;line-height:20px;mso-line-height-rule:exactly;color:#92411f;">
+                      Yours sincerely,
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td align="left" valign="top" style="font-family:'Public Sans', Arial,sans-serif;font-size:16px;line-height:24px;mso-line-height-rule:exactly;color:#92411f;">
+                      <strong>The Investment Management team</strong>
+                    </td>
+                  </tr>
+
+
+                </table>
+              </td>
+            </tr>
+            <tr>
+              <td valign="top" align="center" height="20" style="mso-line-height-rule:exactly; font-size:20px; line-height:20px;">&nbsp;</td>
+            </tr>
+
+
+            <tr>
+              <td valign="top" align="center" height="20" style="mso-line-height-rule:exactly; font-size:20px; line-height:20px;">&nbsp;</td>
+            </tr>
+            <tr>
+              <td align="center" valign="top" bgcolor="#ffffff" style="border-top:1px solid #92411f;">
+
+                <table role="presentation" width="90%" border="0" cellspacing="0" cellpadding="0">
+                  <tr>
+                    <td align="center" valign="top" height="20" style="mso-line-height-rule:exactly; font-size:20px; line-height:20px;">&nbsp;
+                    </td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="top" style="font-family:'Public Sans', Arial,sans-serif;font-size:10px;line-height:12px;mso-line-height-rule:exactly;color:#454545;">Maecenas a libero feugiat, rutrum neque et, lacinia eros. Mauris sed lorem vel ex lacinia vehicula bibendum sollicitudin nunc. Duis non velit quis risus vestibulum faucibus vel non ex. Phasellus nec dolor eu nisi semper commodo.
+                    </td>
+                  </tr>
+                  <tr>
+                    <td valign="top" align="center" height="20" style="mso-line-height-rule:exactly; font-size:20px; line-height:20px;">&nbsp;</td>
+                  </tr>
+                </table>
+
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+  </div>
+</body>
+
+</html>
